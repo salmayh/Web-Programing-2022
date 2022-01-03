@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mata uang asing</title>
+
+    <script src="script.js"></script>
+
+</head>
+<body style="margin: 20px; position: fixed;">
+    <fieldset style="width: 215px; height: 200px; background-color: lightcyan;">
+        <legend>Kurs Rupiah - Mata Uang Asing</legend>
+        <form name="form">
+
+            <a>Nilai Mata Uang</a>
+            <br>
+            <input type="text" id="nilai">
+            <br><br>
+            <label for="nilai">Mata Uang Asing</label>
+            <br>
+            <select name="uangasing">
+                <option value="pilih"> -Pilih Mata Uang Asing - </option>
+                <option value="USD">Dollar US</option>
+                <option value="SGD">Dollar Singapore</option>
+                <option value="RM">Ringgit Malaysia</option>
+                <option value="YEN">Yen Jepang</option>
+                <option value="EURO">Euro</option>
+                <option value="SR">Riyal Arab Saudi</option>
+            </select>
+            <br>
+            <input type="button" value="HASIL" onClick="konversiuang()" style="margin-left: 50px; margin-top: 10px;">
+            <button type="reset">RESET</button>
+            <br><br>
+            <label for="kurs">Kurs Rupiah</label>
+            <br>
+            <input type="text" id="kurs">
+            <br>
+        </form>
+    </fieldset>
+</body>
+</html>
