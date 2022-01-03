@@ -1,0 +1,50 @@
+.container {
+    background-color: white;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.box {
+    padding: 30px;
+}
+
+.box1 {
+    background-color: lightcoral;
+    width: 880px;
+    float: right;
+}
+
+.box2 {
+    background-color: lightseagreen;
+    width: 200px;
+}
+
+.box3 {
+    background-color: mediumpurple;
+    margin-top: 20px;
+    width: 200px;
+    height: 340px;
+    float: right;
+}
+
+.box4 {
+    background-color: rgb(204, 61, 152);
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 600px;
+    height: 340px;
+    float: right;
+}
+
+.box5 {
+    background-color: rgb(48, 159, 233);
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 340px;
+}
+
+.box6 {
+    background-color: orange;
+    margin-top: 20px;
+}

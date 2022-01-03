@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(93, 202, 253, 0.397);
+    padding: 135px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    padding: 5px;
+}
+
+.box1 {
+    float: right;
+}
+
+.box2 {
+    float: right;
+}
+
+.box4 {
+    float: right;
+}
+
+.box5 {
+    float: right;
+}
+
+.box6 {
+    float: right;
+}
+
+.box7 {
+    float: right;
+}

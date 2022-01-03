@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormPesananBarang | Salma Saniyyah</title>
+</head>
+<body style="width: 1100px; margin: auto; border:2px solid black; margin-top: 20px;">
+<!-- Nav bar -->
+    <div>
+        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; height: 40px; background-color: #47a3e0;">
+            <li style="float: left"><a href="" style=" display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Times New Roman, Times, serif;
+                font-size: 20px;
+                margin-left: 80px;">Home   |</a></li>
+            <li style="float: left"><a href="" style=" display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Times New Roman, Times, serif;
+                font-size: 20px;
+                margin-left: 80px;">Generate Link  |</a></li>
+            <li style="float: left"><a href="" style=" display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Times New Roman, Times, serif;
+                font-size: 20px;
+                margin-left: 80px;">Transaction History |</a></li>
+            <li style="float: left"><a href="" style=" display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Times New Roman, Times, serif;
+                font-size: 20px;
+                margin-left: 80px;">Policy |</a></li>
+            <li style="float: left"><a href="" style=" display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: Times New Roman, Times, serif;
+                font-size: 20px;
+                margin-left: 80px;">Logout</a></li>
+        </ul>  
+    </div>
+<!-- Navbar end -->
+
+<!-- isi -->
+<div class="grid-container" style="display: grid;
+grid-template-columns: 300px 780px;
+padding: 10px;">
+    <div class="grid-item" style="text-align:center;">
+        <img src="macbook.png" alt="" style="width: 250px;"><br>
+        <button>Upload Image</button>
+    </div>
+
+    <div class="grid-item" style="background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 16px;">
+    <table>
+        <tr>
+            <td style="width: 200px;"><b>Title here:</b></td>
+            <td style="width: 500px;"><input type="text" placeholder="Masukkan Nama Barang"></td>
+        </tr>
+        <tr>
+            <td><b>Description:</b></td>
+            <td><textarea name="Descriptiontext" id="Description" cols="20" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td><b>Account number:</b></td>
+            <td><input type="text" placeholder=""></td>
+        </tr>
+        <tr>
+            <td><b>Bank:</b></td>
+            <td><p><input type="text" list="bank" name="bank"></p><datalist id="bank">
+                    <option value="BRI"></option>
+                    <option value="BNI"></option>
+                    <option value="Mandiri"></option>
+                    <option value="Mandiri syariah"></option>
+            </datalist></td>
+        </tr>
+        <tr>
+            <td><b>Account holder:</b></td>
+            <td><input type="text" placeholder="Name here"></td>
+        </tr>
+        <tr>
+            <td><b>Transaction:</b></td>
+            <td>
+                <select>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+            <p>*if the transactionis for 3 person, choose 3 from the dro-down list</p>
+                <input type="checkbox" id="mobile" name="mobile" value="mobile phone" checked>
+                <label for="mobile" >Send to mobile phone</label><br>
+                <input type="checkbox" id="email" name="email" value=" send email" checked>
+                <label for="email">Send to email</label>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Send to mobile phone:</b></td>
+            <td>1234567890, 1234567891</td>
+        </tr>
+        <tr>
+            <td><b>Send to email:</b></td>
+            <td>mmfmm@yahoo.co.id</td>
+        </tr>
+    </table>
+    <br>
+    <button style="color: green; margin-left: 205px;">Generate Nobr Link</button>
+    </div>
+</div>
+    
+</body>
+</html>

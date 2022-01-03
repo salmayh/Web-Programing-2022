@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.container {
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    align-items: inherit;
+    justify-content: space-around;
+
+}
+
+.box {
+    padding: 50px;
+    text-align: center;
+    width: 100px;
+}
+
+.box1 {
+    background-color: rgb(208, 255, 0);
+}
+
+.box2 {
+    background-color: rgb(201, 114, 57);
+}
+
+.box3 {
+    background-color: rgb(132, 216, 132);
+}
+
+.box4 {
+    background-color: rgb(104, 204, 243);
+}

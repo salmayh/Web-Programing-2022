@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+</head>
+<body>
+    <div>
+        <fieldset style="width: 230px;">
+        <legend style="font-size: large; font-weight: bold;">Pilih Gambar yang Disukai</legend>
+        <br>
+            <label for="hewan" style="margin-top: 20px;">Pilih Salah Satu Hewan</label>
+            <br>
+            <select id="hewan" onchange="cetak_gambar()">
+                <option value="#"></option>
+                <option value="beruang">beruang</option>
+                <option value="burung beo">burung beo</option>
+                <option value="kelinci">kelinci</option>
+                <option value="anjing">anjing</option>
+                <option value="harimau">harimau</option>
+            </select>
+        </fieldset>
+    </div>
+        <div style="width: 20px; height: 20px; border-style: solid 1px;">
+            <img src="" id="gambar">
+        </div>
+    <script>
+        function cetak_gambar() {
+            const hewan = document.getElementById("hewan");
+            const gambar = document.getElementById("gambar");
+
+            if (hewan.value === "beruang"){
+                    gambar.src = "img/beruang.png"
+                    alert("ini gambar beruang");
+                }
+    
+            if (hewan.value === "burung beo"){
+                    gambar.src = "img/beo.png"
+                    alert("ini gambar burung beo");
+                }
+            
+            if (hewan.value === "kelinci"){
+                    gambar.src = "img/rabbit.png"
+                    alert("ini gambar kelinci");
+                }
+            
+            if (hewan.value === "anjing"){
+                    gambar.src = "img/anjing.png"
+                    alert("ini gambar anjing");
+                }
+
+            if (hewan.value === "harimau"){
+                    gambar.src = "img/tiger.png"
+                    alert("ini gambar harimau");
+                }   
+        }
+    </script>
+</body>
+</html>

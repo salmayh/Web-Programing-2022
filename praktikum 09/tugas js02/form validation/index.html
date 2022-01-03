@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validasi</title>
+</head>
+<body>
+    <style>
+        span {
+            visibility: hidden;
+            color: red;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="width: 200px;">
+        <legend>Form Validation</legend>
+        <input type="text" id="nama" placeholder="masukan nama">
+            <span>nama tidak boleh kosong</span>
+            <br><br>
+        <input type="text" id="email" placeholder="masukan email">
+            <span>emai tidak boleh kosong</span>
+            <br><br>
+        <input type="time" id="jam" >
+            <span>jam keberangkatan tidak boleh kosong</span>
+            <br><br>
+        <input type="text" id="tujuan" placeholder="masukan tujuan">
+            <span>tujuan tidak boleh kosong</span>
+            <br><br>
+        <input type="number" id="tiket" placeholder="masukan jumlah tiket">
+            <span>jumlah tiket tidak boleh kosong</span>
+            
+        <button onclick="validasi()" style="margin-left: 60px; margin-top: 20px;">Submit</button>
+        <br>
+        <div id="hasil"></div>
+    </fieldset>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

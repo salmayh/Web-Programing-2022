@@ -1,0 +1,46 @@
+.container {
+    background-color: rgb(54, 70, 78);
+    padding: 20px;
+    flex-direction: column;
+}
+
+.box {
+    padding: 30px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    background-color: rgb(250, 162, 162);
+    width: 95%;
+    float: right;
+}
+
+.box2 {
+    background-color: rgb(126, 173, 245);
+    margin-top: 20px;
+    width: 58%;
+    height: 340px;
+    float: right;
+}
+
+.box3 {
+    background-color: rgb(198, 172, 248);
+    margin-top: 80px;
+    margin-right: 20px;
+    width: 30%;
+    height: 340px;
+}
+
+.box4 {
+    background-color: rgb(121, 240, 214);
+    margin-top: 20px;
+}
+
+.img {
+    align-self: flex-end;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}

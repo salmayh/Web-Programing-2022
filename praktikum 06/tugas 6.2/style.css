@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box; 
+    }
+
+.container {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.box {
+    padding: 20px;
+}
+
+
+.header {
+    background-color: rgb(238, 124, 89);
+    height: 100px;
+    width: 80%;
+    float: right;
+}
+
+.nav {
+    background-color: rgb(235, 137, 186);
+    float: left;
+    width: 20%;
+    height: 600px;
+}
+
+.arti {
+    background-color: rgb(138, 228, 228);
+    float: right;
+    width: 60%;
+    height: 400px;
+}
+
+.aside {
+    background-color: cornflowerblue;
+    float: right;
+    width: 20%;
+    height: 400px;
+}
+
+.footer {
+    background-color: rgb(238, 124, 89);
+    width: 80%;
+    float: right;
+    height: 100px;
+}

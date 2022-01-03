@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.container {
+    padding: 32px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.box {
+    padding: 30px;
+}
+
+.box1 {
+    background-color: rgb(238, 136, 89);
+    height: 30px;
+}
+
+.box2 {
+    background-color: slateblue;
+    margin-top: 30px;
+    float: right;
+    width: 880px;
+    height: 150px;
+}
+
+.box3 {
+    background-color: teal;
+    margin-top: 30px;
+    width: 180px;
+    height: 150px;
+}
+
+.box4 {
+    background-color: wheat;
+    margin-top: 30px;
+    float: right;
+    width: 880px;
+    height: 130px;
+}
+
+.box5 {
+    background-color: yellow;
+    margin-top: 30px;
+    width: 180px;
+    height: 130px;
+}
